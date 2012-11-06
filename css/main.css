@@ -11,10 +11,35 @@ body{
     color:#333;
     background-color:#fff
 }
-  
+
+/* ==========================================================================
+   NAVIGATION
+   ========================================================================== */
+
 /* ==========================================================================
    COLOR PALETTE
    ========================================================================== */
+.color{
+    color: #fff;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.color1{
+    background: #04C;
+}
+
+.color2{
+    background: #2F96B4;
+}
+
+.color3{
+    background: #51A351;
+}
+
+.color4{
+    background: #F89406;
+}
   
 /* ==========================================================================
    TYPOGRAPY
@@ -320,8 +345,55 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
    ALERT STYLES
    ========================================================================== */
 
+.alert {
+    padding: 8px 35px 8px 14px;
+    margin-bottom: 20px;
+    color: #C09853;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    background-color: #FCF8E3;
+    border: 1px solid #FBEED5;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.alert-danger, .alert-error {
+    color: #B94A48;
+    background-color: #F2DEDE;
+    border-color: #EED3D7;
+}
+.alert-success {
+    color: #468847;
+    background-color: #DFF0D8;
+    border-color: #D6E9C6;
+}
+.alert-info {
+    color: #3A87AD;
+    background-color: #D9EDF7;
+    border-color: #BCE8F1;
+}
 
+/* ==========================================================================
+   BREADCRUMB STYLES
+   ========================================================================== */
 
+.breadcrumb {
+    padding: 8px 15px;
+    margin: 0 0 20px;
+    list-style: none;
+    background-color: whiteSmoke;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+/* ==========================================================================
+   PAGINATION STYLES
+   ========================================================================== */
+
+.pagination {
+    height: 40px;
+    margin: 20px 0;
+}
 
 
 
