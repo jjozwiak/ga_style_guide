@@ -2,7 +2,8 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -28,49 +29,106 @@
         <![endif]-->
 
         <div class="container">
-        
-            <div class="navbar">
-                <div class="navbar-inner">
-                    <a class="brand" href="#">Title</a>
-                    <ul class="nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                    </ul>
-                </div>
-            </div>
 
-            <hr>
-       	
-        	<h2 style="text-align:center">COLOR PALETTE</h2>
-        	<div class="row-fluid">
-            	<div class="span1 color color1">#04C</div>
-            	<div class="span1 color color2">#2F96B4</div>
-            	<div class="span1 color color3">#51A351</div>
-            	<div class="span1 color color4">#F89406</div>
-        	</div>
-        	
-        	<hr>
-        	
-        	<h2 style="text-align:center">TYPOGRAPHY</h2>
-			<h1>HEADING 1</h1>
-			<h2>HEADING 2</h2>
-			<h3>HEADING 3</h3>
-			<h4>HEADING 4</h4>
-			<h5>HEADING 5</h5>
-			<h6>HEADING 6</h6>
+            <div class="style-container">
+                <h2 class="section-heading">NAVIGATION</h2>
+            <div id="navbar-example" class="navbar navbar-static">
+              <div class="navbar-inner">
+                <div class="container" style="width: auto;">
+                  <a class="brand" href="#">Project Name</a>
+                  <ul class="nav" role="navigation">
+                    <li class="dropdown">
+                      <a id="drop1" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
+                        <li><a tabindex="-1" href="http://google.com">Action</a></li>
+                        <li><a tabindex="-1" href="#anotherAction">Another action</a></li>
+                        <li><a tabindex="-1" href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li><a tabindex="-1" href="#">Separated link</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown">Dropdown 2 <b class="caret"></b></a>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="drop2">
+                        <li><a tabindex="-1" href="#">Action</a></li>
+                        <li><a tabindex="-1" href="#">Another action</a></li>
+                        <li><a tabindex="-1" href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li><a tabindex="-1" href="#">Separated link</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <ul class="nav pull-right">
+                    <li id="fat-menu" class="dropdown">
+                      <a href="#" id="drop3" role="button" class="dropdown-toggle" data-toggle="dropdown">Dropdown 3 <b class="caret"></b></a>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="drop3">
+                        <li><a tabindex="-1" href="#">Action</a></li>
+                        <li><a tabindex="-1" href="#">Another action</a></li>
+                        <li><a tabindex="-1" href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li><a tabindex="-1" href="#">Separated link</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
             
-			<p>paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph</p>
-			<blockquote>blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote</blockquote>
-			<p>paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph</p>
+                <ul class="nav nav-tabs">
+                    <li class="active">
+                        <a href="#">Home</a>
+                    </li>
+                    <li><a href="#">TAB1</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" id="drop5" role="button" data-toggle="dropdown" href="#">TAB2<b class="caret"></b></a>
+                        <ul id="menu3" class="dropdown-menu" role="menu" aria-labelledby="drop5">
+                            <li><a tabindex="-1" href="#">Action</a></li>
+                            <li><a tabindex="-1" href="#">Another action</a></li>
+                            <li><a tabindex="-1" href="#">Something else here</a></li>
+                            <li class="divider"></li>
+                            <li><a tabindex="-1" href="#">Separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <div class="btn-group">
+                    <button class="btn">LEFT</button>
+                    <button class="btn">MIDDLE</button>
+                    <button class="btn">RIGHT</button>
+                </div>
+
+            </div>
+            
+            <div class="style-container">
+        	   <h2 class="section-heading">COLOR PALETTE</h2>
+        	   <div class="row-fluid">
+        	       <div class="span1 color color1">#04C</div>
+        	       <div class="span1 color color2">#2F96B4</div>
+        	       <div class="span1 color color3">#51A351</div>
+        	       <div class="span1 color color4">#F89406</div>
+        	   </div>
+            </div>
+            
+        	<div class="style-container">
+        	   <h2 class="section-heading">TYPOGRAPHY</h2>
+        	   <h1>HEADING 1</h1>
+        	   <h2>HEADING 2</h2>
+        	   <h3>HEADING 3</h3>
+        	   <h4>HEADING 4</h4>
+        	   <h5>HEADING 5</h5>
+        	   <h6>HEADING 6</h6>
+            
+        	   <p>paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph <a href="#">Link</a> paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph <a href="#">Link</a> paragraph paragraph paragraph paragraph paragraph paragraph paragraph</p>
+        	   <blockquote>blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote</blockquote>
+        	   <p>paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph</p>
 			
-			<ul>
-				<li>Item 1</li>
-				<li>Item 2
-					<ul>
-						<li>Sub Item 1</li>
-						<li>Sub Item 2</li>
-					</ul>
+        	   <ul>
+				    <li>Item 1</li>
+				    <li>Item 2
+					   <ul>
+						  <li>Sub Item 1</li>
+						  <li>Sub Item 2</li>
+				</ul>
 				</li>
 				<li>Item 3</li>
 			</ul>
@@ -85,19 +143,20 @@
 				</li>
 				<li>Item 3</li>
 			</ol>
-			
-		<hr/>
-		  <h2 style="text-align:center">IMAGES</h2>
-		  <div class="bs-docs-example bs-docs-example-images">
-                <img src="http://placehold.it/140x140" class="img-rounded">
-                <img src="http://placehold.it/140x140" class="img-circle">
-                <img src="http://placehold.it/140x140" class="img-polaroid">
-          </div>
-		
-		<hr/>
-		
-		  <h2 style="text-align:center">TABLES</h2>
-		   
+        	
+        	</div>
+        	
+        	<div class="style-container">
+        	   <h2 class="section-heading">IMAGES</h2>
+        	   <div class="bs-docs-example bs-docs-example-images">
+        	       <img src="http://placehold.it/140x140" class="img-rounded">
+        	       <img src="http://placehold.it/140x140" class="img-circle">
+        	       <img src="http://placehold.it/140x140" class="img-polaroid">
+        	   </div>
+            </div>
+        
+        <div class="style-container">
+		  <h2 class="section-heading">TABLES</h2>	   
           <table class="table table-striped">
               <thead>
                 <tr>
@@ -129,9 +188,9 @@
               </tbody>
             </table>
             
-            <hr>
-            
-            <h2 style="text-align:center">FORMS</h2>
+        </div>
+            <div class="style-container">
+            <h2 class="section-heading">FORMS</h2>
             
             <form class="form-horizontal">
             	<div class="control-group">
@@ -153,9 +212,9 @@
             	</div>
             </form>
             
-            <hr>
-            
-            <h2 style="text-align:center">BUTTONS</h2>
+            </div>
+            <div class="style-container">
+            <h2 class="section-heading">BUTTONS</h2>
             
             <div style="margin-bottom: 15px;">
                 <button class="btn">Default</button>
@@ -173,9 +232,9 @@
                 <button class="btn btn-primary btn-mini">MINI</button>
             </div>
             
-            <hr>
-            
-             <h2 style="text-align:center">ALERTS</h2>
+            </div>
+            <div class="style-container">
+             <h2 class="section-heading">ALERTS</h2>
             
             <div class="alert">
                 <button type="button" class="close" data-dismiss="alert">×</button>
@@ -185,9 +244,9 @@
             <div class="alert alert-success">SUCCESS!</div>
             <div class="alert alert-info">INFORMATION</div>
             
-            <hr>
-            
-            <h2 style="text-align:center">MISC</h2>
+            </div>
+            <div class="style-container">
+            <h2 class="section-heading">MISC</h2>
             
             <ul class="breadcrumb">
                 <li><a href="#">Home</a> <span class="divider">/</span></li>
@@ -206,6 +265,22 @@
                     <li><a href="#">Next</a></li>
                 </ul>
             </div>
+            
+            <div class="modal" style="position: relative; top: auto; left: auto; margin: 0 auto 20px; z-index: 1; max-width: 100%;">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3>Modal Window</h3>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor set amit</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn">Close</a>
+                    <a href="#" class="btn btn-primary">Save changes</a>
+                </div>
+            </div>
+
+        </div>
 
         </div> <!-- /container -->
 
